@@ -1,123 +1,121 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Template</title>
-    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rafael Rodriguez</title>
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
 Remove this if you use the .htaccess -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="description" content="Page Description">
-<meta name="author" content="Rafase282">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    
-    
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Welcome to my Page">
+  <meta name="author" content="Rafase282">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-        <link rel="stylesheet" href="css/style.css">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    
-    
-    
-  </head>
-
-  <body>
-
-    <!-- Navigation bar, collapses and everything -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Rafase282</a>
+  <!-- Navigation bar, collapses and everything -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Rafael Rodriguez</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#home">
+              <span class="glyphicon glyphicon-home"></span> Home</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-log-in" id="btn-hide"></span> Login</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="#">
-            <span class="glyphicon glyphicon-user"></span> Sign Up</a>
-        </li>
-        <li>
-          <a href="#">
-            <span class="glyphicon glyphicon-log-in" id="btn-hide"></span> Login</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Header area for the page -->
-<section class="jumbotron center-text">
-  <h1>Lorem ipsum</h1>
-  <h2>dolor sit amet, consectetur adipiscing elit.</h2>
-  <button type="button" id="btn-hide" class="btn btn-success">Morbi</button>
-</section>
-
-<!-- Main area of the page, three colums, one row -->
-<main class="main">
-  <section class="container-fluid center center-text">
-    <div class="row">
-      <div class="col-sm-4 col-lg-4">
-        <i class="fa fa-bolt fa-5x"></i>
-        <h3>Donec id</h3>
-        <p>Morbi consectetur tincidunt est vel imperdiet. Quisque rhoncus varius lorem, sed tempor dolor. Praesent aliquet leo sem, non viverra sapien consectetur sit amet. Vivamus rhoncus, nulla vel auctor bibendum, tortor arcu dignissim tortor, quis mollis
-          ante risus at magna.</p>
-      </div>
-      <div class="col-sm-4 col-lg-4">
-        <i class="fa fa-globe fa-5x"></i>
-        <h3>Suscipit Nisl</h3>
-        <p> Nullam laoreet blandit ex eu fermentum. Vestibulum non diam eget tortor vulputate aliquam ut ac mauris. Duis maximus finibus purus nec ornare. Donec vel risus sed justo iaculis convallis. Nunc vel urna vel libero consequat pulvinar eget vitae
-          neque. </p>
-      </div>
-      <div class="col-sm-4 col-lg-4">
-        <i class="fa fa-facebook fa-5x"></i>
-        <h3>Pellentesque</h3>
-        <p> Nunc eu fermentum ante. Maecenas eu dolor lorem. Aenean et lacus nec nunc finibus mattis gravida vitae dui. Sed ut semper eros, a suscipit ex. Nunc eu nisl elementum, varius purus nec, luctus leo. Aliquam eu erat nisl.</p>
-      </div>
+  <!-- Home -->
+  <section class="home" id="home">
+    <h1>Rafael Rodriguez</h1>
+    <h2>Creative Solutions</h2>
+    <img class="img-responsive img-circle displayed me" src="https://avatars.githubusercontent.com/u/285138?v=3">
+    <div class="img-text">
+      <p>My name is Rafael Rodriguez. I’m a Computer Science graduate from Lehman College, NY. A single parent, co-founder of TealSeagull LLC (still cooking), I work as a freelancer for the time being, I write reviews, talk about my personal projects and
+        even have two small books published at the moment.</p>
     </div>
   </section>
-  <section id="push"></section>
-</main>
 
-<!-- Footer -->
-<footer>
-  <p>Copyright &copy; Rafael J. Rodriguez 2015. All Rights Reserved</p>
-  <p>
-    <a href="mailto:rafase282@gmail.com">
-      <i class="fa fa-envelope fa-fw"></i>
-    </a>
-    <a href="https://github.com/Rafase282" target='_blank'>
-      <i class="fa fa-github fa-fw"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/rafase282" target='_blank'>
-      <i class="fa fa-linkedin"></i>&nbsp;
-    </a>
-    <a href="http://codepen.io/Rafase282" target='_blank'>
-      <i class="fa fa-codepen"></i>&nbsp;
-    </a>
-    <a href="https://rafase282.wordpress.com/" target='_blank'>
-      <i class="fa fa-wordpress"></i>&nbsp;
-    </a>
-    <a href="http://www.freecodecamp.com/rafase282" target='_blank'>
+  <!-- Main area of the page, three colums, one row -->
+  <main class="main">
+    <section class="container-fluid center center-text">
+      <div class="row">
+        <div class="col-sm-4 col-lg-4">
+          <i class="fa fa-bolt fa-5x"></i>
+          <h3>Donec id</h3>
+          <p>Morbi consectetur tincidunt est vel imperdiet. Quisque rhoncus varius lorem, sed tempor dolor. Praesent aliquet leo sem, non viverra sapien consectetur sit amet. Vivamus rhoncus, nulla vel auctor bibendum, tortor arcu dignissim tortor, quis
+            mollis ante risus at magna.</p>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <i class="fa fa-globe fa-5x"></i>
+          <h3>Suscipit Nisl</h3>
+          <p> Nullam laoreet blandit ex eu fermentum. Vestibulum non diam eget tortor vulputate aliquam ut ac mauris. Duis maximus finibus purus nec ornare. Donec vel risus sed justo iaculis convallis. Nunc vel urna vel libero consequat pulvinar eget vitae
+            neque. </p>
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <i class="fa fa-facebook fa-5x"></i>
+          <h3>Pellentesque</h3>
+          <p> Nunc eu fermentum ante. Maecenas eu dolor lorem. Aenean et lacus nec nunc finibus mattis gravida vitae dui. Sed ut semper eros, a suscipit ex. Nunc eu nisl elementum, varius purus nec, luctus leo. Aliquam eu erat nisl.</p>
+        </div>
+      </div>
+    </section>
+    <section id="push"></section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Copyright &copy; Rafael J. Rodriguez 2015. All Rights Reserved</p>
+    <p>
+      <a href="mailto:rafase282@gmail.com">
+        <i class="fa fa-envelope fa-fw"></i>
+      </a>
+      <a href="https://github.com/Rafase282" target="_blank">
+        <i class="fa fa-github fa-fw"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/rafase282" target="_blank">
+        <i class="fa fa-linkedin"></i>&nbsp;
+      </a>
+      <a href="http://codepen.io/Rafase282" target="_blank">
+        <i class="fa fa-codepen"></i>&nbsp;
+      </a>
+      <a href="https://rafase282.wordpress.com/" target="_blank">
+        <i class="fa fa-wordpress"></i>&nbsp;
+      </a>
+      <a href="http://www.freecodecamp.com/rafase282" target="_blank">
     (<i class="fa fa-fire fa-fw"></i>)
   </a></p>
-</footer>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  </footer>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
 
-        <script src="js/index.js"></script>
+</body>
 
-    
-    
-    
-  </body>
 </html>
