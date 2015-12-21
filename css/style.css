@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: SkyBlue;
+}
+
+.main {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #f2f2f2;
+}
+
+.main h1 {
+  margin-top: 0;
+}
+
+
+/**
+ * Footer Styles
+ */
+
+footer {
+  background-color: #222222;
+  color: Gray;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+  font-family: cursive, sans-serif;
+}
+
+.navbar {
+  position: relative;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.fa-bolt {
+  color: Yellow;
+}
+
+.fa-globe {
+  color: Green;
+}
+
+.fa-facebook,
+a {
+  color: LightSkyBlue;
+}
+
+.jumbotron {
+  /**
+  top: -50px;
+  **/
+  position: relative;
+  padding-top: 6%;
+  background-color: #f2f2f2;
+}
+
+#push {
+  padding-bottom: 25px;
+}
