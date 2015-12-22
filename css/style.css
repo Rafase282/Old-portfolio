@@ -64,12 +64,7 @@ img {
 .panel-body {
   color: black;
 }
-.navbar-header {
-  padding-left: 10%;
-}
-.navbar-right {
-  padding-right: 10%;
-}
+
 .home {
   position: relative;
   min-height: 100vh;
