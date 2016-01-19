@@ -105,3 +105,12 @@ img {
   min-height: 60vh;
   margin: auto;
 }
+
+.project-img{
+  height: 450px;
+  width: 450px;
+}
+
+.well{
+  min-height: 450px;
+}
