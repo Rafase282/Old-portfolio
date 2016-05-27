@@ -1,357 +1,361 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="UTF-8">
-  <title>Rafael Rodriguez</title>
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-Remove this if you use the .htaccess -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="Welcome to my Page">
-  <meta name="author" content="Rafase282">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<!-- The scrollable area -->
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <!-- Navigation Part -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Rafael Rodriguez</a>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rafael Rodriguez</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Rafase282">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Import Material Icons-->
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Import Titillium-->
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Titillium+Web: 400, 700">
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper color-Bp"><a class="brand-logo" href="/">Rafael Rodriguez</a><a class="button-collapse" href="#" data-activates="mobile-nav"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="#tools"><i class="material-icons left">build</i>Tools</a></li>
+            <li><a href="#portfolio"><i class="material-icons left">business_center</i>Portfolio</a></li>
+            <li><a href="#contact"><i class="material-icons left">mail</i>Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-nav">
+            <li><a href="#home"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="#tools"><i class="material-icons left">build</i>Tools</a></li>
+            <li><a href="#portfolio"><i class="material-icons left">business_center</i>Portfolio</a></li>
+            <li><a href="#contact"><i class="material-icons left">mail</i>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <main class="center-align">
+      <section class="container scrollspy" id="home">
+        <h1 class="color-Tp">Welcome!</h1>
+        <div class="card-panel hoverable"><img class="responsive-img materialboxed hoverable" id="logo" src="images/my-pc.jpg" alt="Web Developer">
+          <p class="color-Tp-light flow-text">My name is Rafael Rodriguez. I'm a Computer Scientist (B.Sc), passionate about Web Development and Open Source Software. When I'm not mentoring others at <a href="https://freecodecamp.com" target="_blank">Free Code Camp, </a>you'll see me around New York with my son.</p>
+        </div>
+      </section>
+      <section class="container scrollspy" id="tools">
+        <div class="card-panel hoverable">
+          <h2 class="color-Tp">Tools of the Trade</h2>
+          <p class="color-Tp-light flow-text">I use a wide range of tools for front and backend development. I like to focus on open source tools but I'm also very versatile with non open source software. Bellow is a glimpse of the tools I use daily.</p>
+        </div>
+        <div class="row">
+          <div class="col s6">
+            <h4 class="color-Tp">Front End Tools</h4>
+          </div>
+          <div class="col s6"> 
+            <h4 class="color-Tp">Back End Tools</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s3">
+            <ul class="flow-text">
+              <li><span class="devicons devicons-html5 color-Tp-light tooltipped" data-position="right" data-tooltip="HTML5"></span></li>
+              <li><span class="devicons devicons-markdown color-Tp-light tooltipped" data-position="right" data-tooltip="Markdown, Pug/Jade"></span></li>
+              <li><span class="devicons devicons-css3 color-Tp-light tooltipped" data-position="right" data-tooltip="CSS3"></span></li>
+              <li> <span class="devicons devicons-sass color-Tp-light tooltipped" data-position="right" data-tooltip="SASS/SCSS"></span></li>
+              <li><span class="devicons devicons-materializecss color-Tp-light tooltipped" data-position="right" data-tooltip="Materializecss"></span></li>
+            </ul>
+          </div>
+          <div class="col s3">
+            <ul class="flow-text">
+              <li> <span class="devicons devicons-bootstrap color-Tp-light tooltipped" data-position="right" data-tooltip="Bootstrap"></span></li>
+              <li><span class="devicons devicons-javascript color-Tp-light tooltipped" data-position="right" data-tooltip="JavaScript"></span></li>
+              <li> <span class="devicons devicons-jquery color-Tp-light tooltipped" data-position="right" data-tooltip="JQuery"></span></li>
+              <li> <span class="devicons devicons-react color-Tp-light tooltipped" data-position="right" data-tooltip="Reactjs"></span></li>
+              <li> <span class="devicons devicons-atom color-Tp-light tooltipped" data-position="right" data-tooltip="Atom"></span></li>
+            </ul>
+          </div>
+          <div class="col s3">
+            <ul class="flow-text">
+              <li><span class="devicons devicons-nodejs color-Tp tooltipped" data-position="left" data-tooltip="Nodejs/Express"></span></li>
+              <li> <span class="devicons devicons-npm color-Tp tooltipped" data-position="left" data-tooltip="NPM"></span></li>
+              <li> <span class="devicons devicons-mongodb color-Tp tooltipped" data-position="left" data-tooltip="MongoDB"></span></li>
+              <li> <span class="devicons devicons-gulp color-Tp tooltipped" data-position="left" data-tooltip="Gulp"></span></li>
+              <li><span class="devicons devicons-git color-Tp tooltipped" data-position="left" data-tooltip="Git"></span></li>
+            </ul>
+          </div>
+          <div class="col s3">
+            <ul class="flow-text">
+              <li><span class="devicons devicons-github_badge color-Tp tooltipped" data-position="left" data-tooltip="GitHub"></span></li>
+              <li> <span class="devicons devicons-travis color-Tp tooltipped" data-position="left" data-tooltip="Travis-CI"></span></li>
+              <li> <span class="devicons devicons-linux color-Tp tooltipped" data-position="left" data-tooltip="Linux"></span></li>
+              <li><span class="devicons devicons-windows color-Tp tooltipped" data-position="left" data-tooltip="Windows"></span></li>
+              <li> <span class="devicons devicons-opensource color-Tp tooltipped" data-position="left" data-tooltip="Open Source"></span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="container scrollspy" id="portfolio">
+        <h2 class="color-Tp">Projects</h2>
+        <div class="card-panel hoverable">
+          <p class="color-Tp-light">These are a series of projects that I have completed from varying degress of complexity. They are all open sourced ad available online for you to clone or view. I normally use either <a href="http://codepen.io/Rafase282/" target="_blank">CodePen </a>for exclusively front end projects, <a href="https://github.com/Rafase282" target="_blank">Github Pages </a>for frontend projects with multiple pages or <a href="http://heroku.com" target="_blank">Heroku </a>for full stack or API projects.</p>
+          <p class="color-Tp-light">Each project will have links to the source code and a live demo along with a screenshot and a brieft description of the project and tools used when you click the image.</p>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="images/manga.png"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">MangaDB</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="https://manga-client.herokuapp.com" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Site">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282/Mangadb" target="_blank"><i class="mdi mdi-github-circle center small color-Tp tooltipped" data-position="top" data-tooltip="API Source Code"></i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282/mangadb-front" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Client Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">MangaDB</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">This project is divided in two parts, standalone API which handles the data, security, user management and more; and the client which displays the data in a user friendly way.</p>
+                <p class="color-Tp-light">The Client is based on the Material design and is fully responsive. The user can create or delete an account, and create as many new series as wanted, there is quick access to increase the last read chapter by 1 or update multiple information at once.<br><br>The user can also edit his information and is able to preview the thumbnails before saving it and much more.</p>
+                <h5 class="color-Tp">Tools used:</h5>
+                <ul class="color-Tp-light">
+                  <li>Node.js (API & Client)</li>
+                  <li>Express (API & Client)</li>
+                  <li>Pug (Client)</li>
+                  <li>MongoDB (API)</li>
+                  <li>Javascript (API & Client)</li>
+                  <li>Sass (Client)</li>
+                  <li>Gulp (Client)</li>
+                  <li>Travis-CI (API)</li>
+                  <li>Jason Web Tokens (API & Client)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="images/recipe.png"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">React Recipe Box</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="https://rafase282.github.io/React-Recipe-Box/" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282/React-Recipe-Box" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">React Recipe Box</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">This is a simple React based recipe web app that saves your recipes to local storage in your browser. It supports markdwon so you can be as creative as you want with your recipes. You also have the avility to delete any and all recipes besides adding new ones.</p>
+                <h5 class="color-Tp">Tools used:</h5>
+                <ul class="color-Tp-light">
+                  <li>Reactjs</li>
+                  <li>Babel</li>
+                  <li>Materializecss</li>
+                  <li>Browser Local Storage)</li>
+                  <li>Javascript</li>
+                  <li>Sass</li>
+                  <li>Markdown</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="images/markdown.png"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">React: Markdown Previewer</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="https://rafase282.github.io/React-MarkDown-Editor/" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282/React-MarkDown-Editor" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">React: Markdown Previewer</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">This is a simple React based markdwon parser that allows users to quickly preview markdown. Simple and useful for those who are new to markdown syntax and need a visual feedback.</p>
+                <h5 class="color-Tp">Tools used:</h5>
+                <ul class="color-Tp-light">
+                  <li>Reactjs</li>
+                  <li>Babel</li>
+                  <li>Javascript</li>
+                  <li>Sass</li>
+                  <li>Markdown</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="images/bar-chart.png"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">D3: Bar Chart</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="https://rafase282.github.io/D3-BarChart/" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282/D3-BarChart/" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">D3: Bar Chart</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Responsive bar chart made using d3.js. It has a simple interface</p>
+                <h5 class="color-Tp">Tools used:</h5>
+                <ul class="color-Tp-light">
+                  <li>D3.js</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>SVG</li>
+                  <li>Ajax</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="images/leaderboard.png"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">React: Free Code Camp Leaderboard</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="https://rafase282.github.io/React-FCC-Camper-Leaderboard/" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282/React-FCC-Camper-Leaderboard" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">React: Free Code Camp Leaderboard</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="http://codepen.io/Rafase282" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="http://codepen.io/Rafase282" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="http://codepen.io/Rafase282" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="http://codepen.io/Rafase282" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="http://codepen.io/Rafase282" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="http://codepen.io/Rafase282" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card hoverable medium">
+              <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+              <div class="card-content"><span class="card-title activator color-Tp-light">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">more_vert</i></span></div>
+              <div class="card-action"><a class="waves-effect waves-light" href="http://codepen.io/Rafase282" target="_blank"><i class="material-icons left color-Tp tooltipped" data-position="top" data-tooltip="Live Demo">web</i></a><a class="waves-effect waves-light" href="https://github.com/Rafase282" target="_blank"><i class="mdi mdi-github-circle right small color-Tp tooltipped" data-position="top" data-tooltip="Source Code"></i></a></div>
+              <div class="card-reveal"><span class="card-title color-Tp">
+                  <h5 class="color-Tp">Project Name</h5><i class="material-icons right">close</i></span>
+                <p class="color-Tp-light">Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container scrollspy" id="contact">
+        <h2 class="color-Tp">Contact Me</h2>
+        <div class="container">
+          <p class="color-Tp-light">If you would like to get in touch for consulting, job, comments, feedback or anything that you feel like telling me, go ahead and write me. I do reply back.</p>
+        </div>
+        <div class="container">
+          <div class="card-panel hoverable">
+            <div class="row">
+              <form class="col s12" action="https://formspree.io/rafase282@gmail.com" method="POST">
+                <div class="row">
+                  <div class="input-field col s6"><i class="material-icons prefix color-Tp-light">account_circle</i>
+                    <input class="validate" id="icon_prefix" type="text" name="name" length="28">
+                    <label class="left-align" for="icon_prefix">Full Name</label>
+                  </div>
+                  <div class="input-field col s6"><i class="material-icons prefix color-Tp-light">mail</i>
+                    <input class="validate" id="icon_email" type="email" name="_replyto" length="28">
+                    <label class="left-align" for="icon_email">E-Mail</label>
+                  </div>
+                </div>
+                <div class="row">   
+                  <div class="input-field col s12"><i class="material-icons prefix color-Tp-light">mode_edit</i>
+                    <textarea class="materialize-textarea" id="textarea1" length="282" name="message" style="height: 21.6px"></textarea>
+                    <label class="left-align" for="textarea1">Message</label>
+                    <input type="hidden" name="_next" value="./thanks.html">
+                    <input type="text" name="_gotcha" style="display:none">
+                    <button class="btn waves-effect waves-light color-Bp-light" type="submit" name="action">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer> 
+    <div class="page-footer center-align color-Bp">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="color-Ts">About the Site</h5>
+            <p class="color-Ts">I'm a bilingual, Spanish is my mother tongue and I wish German was my second language. I have a list of languages I would love to learn, if you can help with that, feel free to let me know.</p>
+            <p class="color-Ts">I like to listen to music, watch movies, code, beign a scientist and inventor whenever possible. I enjoy languages I can't understand yet,and I have my own list of languages (Human and coding) that I want to learn.</p>
+            <p class="color-Ts">If you would prefer to chat with me, I'm available on the&nbsp;<a class="color-Ts-dark" href="https://gitter.im/FreeCodeCamp/Wiki" taget="_blank">Free Code Camp's Wiki Chat.&nbsp;</a>You can follow me on any of the links I provide here.</p>
+            <p class="color-Ts">I have made a generator that will help you build this site and you can find it at&nbsp;<a class="color-Ts-dark" href="https://github.com/Rafase282/gulp-material-starter" taget="_blank">[Rafase282/gulp-material-starter].</a>Feel free to use it and build your own portfolio if you need to.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="color-Ts">Follow Me</h5>
+            <div class="col s6">
+              <ul>
+                <li><a href="https://github.com/Rafase282" target="_blank"><span class="devicons devicons-github_badge color-Ts tooltipped" data-position="left" data-tooltip="GitHub"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/rafase282" target="_blank"><i class="mdi mdi-linkedin-box medium color-Ts tooltipped" data-position="left" data-tooltip="LinkedIn"></i></a></li>
+                <li><a href="http://codepen.io/Rafase282" target="_blank"><span class="devicons devicons-codepen color-Ts tooltipped" data-position="left" data-tooltip="Codepen"></span></a></li>
+                <li><a href="https://www.youtube.com/c/rafaelrodriguez282" target="_blank"><i class="mdi mdi-youtube-play medium color-Ts tooltipped" data-position="left" data-tooltip="YouTube">           </i></a></li>
+              </ul>
+            </div>
+            <div class="col s6">
+              <ul>
+                <li><a href="https://medium.com/@Rafase282" target="_blank"><i class="mdi mdi-medium medium color-Ts tooltipped" data-position="left" data-tooltip="Medium"></i></a></li>
+                <li><a href="https://twitter.com/Rafase282" target="_blank"><i class="mdi mdi-twitter medium color-Ts tooltipped" data-position="left" data-tooltip="Twitter"></i></a></li>
+                <li><a class="color-Ts" href="http://www.freecodecamp.com/rafase282" target="_blank" style="font-size: 3em">(<i class="fa fa-fire fa-fw tooltipped" data-position="left" data-tooltip="Free Code Camp"></i>)</a></li>
+                <li><a href="https://www.twitch.tv/rafase282" target="_blank"><i class="mdi mdi-twitch medium color-Ts tooltipped" data-position="left" data-tooltip="Twitch"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="collapse navbar-collapse myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active">
-            <a href="#home">
-              <span class="glyphicon glyphicon-home"></span> Home</a>
-          </li>
-          <li>
-            <a href="#experience">
-              <span class="glyphicon glyphicon-info-sign"></span> Experience</a>
-          </li>
-          <li>
-            <a href="#portfolio">
-              <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">
-              <span class="glyphicon glyphicon-comment"></span> Contact</a>
-          </li>
-        </ul>
+      <div class="footer-copyright">
+        <div class="container center-align">Copyright ©&nbsp;<a class="color-Ts-dark" href="http://rafase282.github.io/">Rafael J. Rodriguez&nbsp;</a>2016. All Rights Reserved</div>
       </div>
     </div>
-  </nav>
-
-  <!-- Home -->
-  <section class="home" id="home">
-    <h1>Rafael Rodriguez</h1>
-    <h2>Creative Solutions</h2>
-    <img class="img-responsive img-circle displayed me" src="https://avatars.githubusercontent.com/u/285138?v=3">
-    <div class="img-text">
-      <p>My name is Rafael Rodriguez. I'm a computer Science grad, student and contributor of FreeCodeCamp where I have been learning Full Stack Javascript development. I'm currently looking for a Jr. Position either front, back or full stack.</p>
-    </div>
-  </section>
-
-  <!-- Experience -->
-  <section class="experience" id="experience">
-    <div class="container">
-      <h1>My Experience</h1>
-      <p>Here is some of my past employment history.</p>
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Freelancer UpWork</a>
-            </h4>
-          </div>
-          <div id="collapse1" class="panel-collapse collapse in">
-            <div class="panel-body">March 2014 – Present
-              <p>Provided the following Services:</p>
-              <ul>
-                <li>Ghost writing.</li>
-                <li>Internet research</li>
-                <li>Amazon Publishing services and more.</li>
-              </ul>
-              <p>Currently Provides:</p>
-              <ul>
-                <li>Web Development</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Independent Contrator for NYC Board of Education</a>
-            </h4>
-          </div>
-          <div id="collapse2" class="panel-collapse collapse">
-            <div class="panel-body">November 2014 – Present
-              <h5>Job Responsibilities</h5>
-              <ul>
-                <li>Provided Help-desk and other on demand solutions to the NYC public schools.</li>
-                <li>Performed setting-up of a new computer lab for the school, upgrading and setting up iPads and other Help-desk related tasks.</li>
-                <li>Provided support for the custodians and their payroll system and equipment.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Information Technology Intern</a>
-            </h4>
-          </div>
-          <div id="collapse3" class="panel-collapse collapse">
-            <div class="panel-body">
-              September 2010 – July 2014 (3 years 11 months) Bronx, NY
-              <h5>Job Responsibilities</h5>
-              <ul>
-                <li>Provided desktop support for students and staff.</li>
-                <li>Worked as MOUSE Squad Coordinator for a year.</li>
-                <li>Made sure all equipment was working properly and troubleshoot any incoming issues that were not hardware damage. This included a wide range from mobile phones to smart boards and anything in between.</li>
-                <li>Configured said devices to join the DOE network, and for one of the schools, maintained a small computer lab with a windows server for a year.</li>
-                <li>Responsible for creating and maintaining inventory of all equipment.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Researcher/Script developer</a>
-            </h4>
-          </div>
-          <div id="collapse4" class="panel-collapse collapse">
-            <div class="panel-body">
-              January 2012 – February 2012 Bronx, NY
-              <h5>Job Responsibilities</h5>
-              <ul>
-                <li>Workshop founded by the National Science Foundation.</li>
-                <li>Learned about the mechanisms used by signaling pathways to trigger events in the nucleus of a cell along with 15 students in a group of 3.</li>
-                <li>Studied specific pathways known to be involved in the development of cancer. Studies involved using BioNetGen models of the pathways to determine the probability distribution for how long it would take for a target event to occur after
-                  an initiating event.</li>
-                <li>Worked with the T-Cells system model, optimized and updated existing scripts to interact with BioNetGen software for the use of the different groups and for possible future use.</li>
-                <li>Presented the group’s findings to leading cancer researchers whose work was the base of our model.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="portfolio" id="portfolio">
-    <h1>Portfolio</h1>
-    <p>Here are some of my most recent Projects!</p>
-    <p>From older to newer</p>
-    <h2>Web Apps</h2>
-    <div class="container">
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-6">
-          <div class="well">
-            <a href="http://codepen.io/Rafase282/full/yNmerP/" class="thumbnail" target="_blank">
-              <img src="img/quote.png" alt="Random Quote Generator" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#random">Random Quote Generator</h2>
-            <div id="random" class="collapse">
-              <p class="gray-text">This site will display random quotes using the <a href="http://forismatic.com/" target="_blank" style="color: orange">Forismatic</a> API. You will then have the option to tweet it and share with others.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="well">
-            <a href="https://github.com/Rafase282/Local-Weather" class="thumbnail" target="_blank">
-              <img src="img/weather.png" alt="Local Weather App" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#weather">Local Weather App</h2>
-            <div id="weather" class="collapse">
-              <p class="gray-text">This site will get your location from your IP address using the <a href="http://ip-api.com" target="_blank" style="color: orange">IP-API.com</a> API. The use that information to get the current weather and other basic information using the
-                <a href="http://openweathermap.org/" target="_blank" style="color: orange">OpenWeatherMap</a> API. The user has the option to display the weather and wind speed using the Metric or Imperial system. It also changes background image depending
-                on the temperature.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="well">
-            <a href="http://codepen.io/Rafase282/full/bVNmbP/" class="thumbnail" target="_blank">
-              <img src="img/pomodoro.png" alt="Pomodoro Timer" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#timer">Pomodoro Timer</h2>
-            <div id="timer" class="collapse">
-              <p class="gray-text">This web app is great for productivity, it can sit in any corner of your screen, and there is not even the need to keep it in view. Once you set the amount of time you want to work and how long you want to rest for, then just let it run
-                and it will keep looking until you stop it. You are also able to pause it in case you have to step aside from your work for a brief moment. It has a nice progression animation to let you know how much time you have left and the break and
-                work progress animation have different color to help you figure out in which one you should be if needed.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2, Canvas</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="well">
-            <a href="http://codepen.io/Rafase282/full/ZbGRzG/" class="thumbnail" target="_blank">
-              <img src="img/twitchtv.png" alt="Twitchtv JSON API" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#twitch">Twitchtv JSON API</h2>
-            <div id="twitch" class="collapse">
-              <p class="gray-text">This app will use the Twitch TV JSON API and display a list of accounts, if they are closed it will display the right symbols and mention that the account has been closed, the same for offline and online streams. It will also display online
-                and offline streams on a different tab and has a global search function that display results as you type while hiding anything that is not part of the match using regular expressions.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2, API, Font Awesome.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="well">
-            <a href="http://codepen.io/Rafase282/full/xwqrro/" class="thumbnail" target="_blank">
-              <img src="img/news.png" alt="FCC Camper News" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#news">FCC Camper News</h2>
-            <div id="news" class="collapse">
-              <p class="gray-text">This web app displays the hottes news from <a href="http://freecodecamp.com/news" target="_blank" style="color: orange">FreeCodeCamp</a> news. You have will see the username, the date it was posted, how many upvotes and the original link
-                to the article. </p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2, Datejs</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="well">
-            <a href="http://codepen.io/Rafase282/full/RWVXXQ/" class="thumbnail" target="_blank">
-              <img src="img/calculator.png" alt="Calculator" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#calc">Calculator</h2>
-            <div id="calc" class="collapse">
-              <p class="gray-text">This calculator will allow you to do chain operations and get a proper answer thanks to the use of parentheses for more complex operations. It does cover the basic features of a calculator too. </p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="well">
-            <a href="http://codepen.io/Rafase282/full/BoRyEv/" class="thumbnail" target="_blank">
-              <img src="img/wiki.png" alt="Wikipedia Searcher" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#wiki">Wikipedia Searcher</h2>
-            <div id="wiki" class="collapse">
-              <p class="gray-text">This app will use the wikipedia API to produce search on the fly on their database. You can also click a button to get a random wiki article. The app can easily be adjusted for any other MediaWiki installation.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="well">
-            <a href="http://codepen.io/Rafase282/full/JYeVmx/" class="thumbnail" target="_blank">
-              <img src="img/simon.png" alt="Simon" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#simon">Simon Game</h2>
-            <div id="simon" class="collapse">
-              <p class="gray-text">Web App that lets the use plays against the machine. There are two modes, strict mode which does not allow for reties, and normal mode which allows for unlimited retries.
-                <br/>The speed increases after the 5th,9th and 13th round. The player wins after the 20th round.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, CSS3, Boostrap3, jQuery2, Jade, SASS.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <h2> Microservices</h2>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="well">
-            <a href="https://r282-timestamp-api.herokuapp.com/" class="thumbnail" target="_blank">
-              <img src="img/timestamp.png" alt="Timestamp Microservice API" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#time">Timestamp Microservice API</h2>
-            <div id="time" class="collapse">
-              <p class="gray-text">This is a microservice that will allow get calls to convert Unix time-stamps or natural dates to one or the other. It checks the date given for validity and output either null or a predefined date format.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> HTML5, Boostrap3, Font Awesome, Javascript, Momentjs, Nodejs, Expressjs, JSON</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="well">
-            <a href="https://header-parser.herokuapp.com/" class="thumbnail" target="_blank">
-              <img src="img/header.png" alt="Header" class="project-img"></a>
-            <h2 class="gray-text" data-toggle="collapse" data-target="#header">Header Parser Microservice API</h2>
-            <div id="header" class="collapse">
-              <p class="gray-text">It is an API that works similar to "whoami" as it displays the real ip, language and software version from the client side.</p>
-              <p class="gray-text">
-                <strong>Technologies used:</strong> Javascript, Node.js, ExpressJS.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <div class="contact-info container">
-      <h1>Contact Me</h1>
-
-      <!-- Twitter feed widget -->
-      <div class="row" id="twitter-feed" align="center">
-        <div class="col-md-12">
-          <a class="twitter-timeline" href="https://twitter.com/Rafase282" data-widget-id="634855727186767876">Tweets by @Rafase282</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- The footer -->
-  <footer>
-    <p>Copyright © Rafael J. Rodriguez 2015. All Rights Reserved</p>
-    <p>
-      <a href="mailto:rafase282@gmail.com">
-        <i class="fa fa-envelope fa-fw"></i>
-      </a>
-      <a href="https://github.com/Rafase282" target="_blank">
-        <i class="fa fa-github fa-fw"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/rafase282" target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-      <a href="http://codepen.io/Rafase282" target="_blank">
-        <i class="fa fa-codepen"></i>
-      </a>
-      <a href="https://rafase282.wordpress.com/" target="_blank">
-        <i class="fa fa-wordpress"></i>
-      </a>
-      <a href="http://www.freecodecamp.com/rafase282" target="_blank">
-    (<i class="fa fa-fire fa-fw"></i>)
-  </a></p>
+    <script src="js/main.min.js"></script>
   </footer>
-</body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="js/index.js"></script>
-
 </html>
