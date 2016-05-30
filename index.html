@@ -1,67 +1,38 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="UTF-8">
-  <title>Rafael Rodriguez</title>
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="Welcome to my Page">
-  <meta name="author" content="Rafase282">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<!-- The scrollable area -->
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <!-- Navigation Part -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Rafael Rodriguez</a>
-      </div>
-      <div class="collapse navbar-collapse myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active">
-            <a href="#home">
-              <span class="glyphicon glyphicon-home"></span> Home</a>
-          </li>
-          <li>
-            <a href="#experience">
-              <span class="glyphicon glyphicon-info-sign"></span> Experience</a>
-          </li>
-          <li>
-            <a href="#portfolio">
-              <span class="glyphicon glyphicon-briefcase"></span> Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact">
-              <span class="glyphicon glyphicon-comment"></span> Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Home -->
-  <section class="home" id="home">
-    <h1>Rafael Rodriguez</h1>
-    <h2>Creative Solutions</h2>
-    <img class="img-responsive img-circle displayed me" src="https://avatars.githubusercontent.com/u/285138?v=3">
-    <div class="img-text">
-      <p>My name is Rafael Rodriguez. I'm a computer Science grad, student and contributor of FreeCodeCamp where I have been learning Full Stack Javascript development. I'm currently looking for a Jr. Position either front, back or full stack.</p>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rafael Rodriguez</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Rafase282">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Import Material Icons-->
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Import Titillium-->
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Titillium+Web: 400, 700">
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper color-Bp"><a class="brand-logo" href="/">Rafael Rodriguez</a><a class="button-collapse" href="#" data-activates="mobile-nav"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="#tools"><i class="material-icons left">build</i>Tools</a></li>
+            <li><a href="#portfolio"><i class="material-icons left">business_center</i>Portfolio</a></li>
+            <li><a href="#contact"><i class="material-icons left">mail</i>Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-nav">
+            <li><a href="#home"><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="#tools"><i class="material-icons left">build</i>Tools</a></li>
+            <li><a href="#portfolio"><i class="material-icons left">business_center</i>Portfolio</a></li>
+            <li><a href="#contact"><i class="material-icons left">mail</i>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <main class="center-align">
       <section class="container scrollspy" id="home">
@@ -120,13 +91,6 @@
               <li> <span class="devicons devicons-opensource color-Tp tooltipped" data-position="left" data-tooltip="Open Source"></span></li>
             </ul>
           </div>
-        </div>
-      </section>
-      <section class="container scrollspy" id="portfolio">
-        <h2 class="color-Tp">Projects</h2>
-        <div class="card-panel hoverable">
-          <p class="color-Tp-light">These are a series of projects that I have completed from varying degress of complexity. They are all open sourced ad available online for you to clone or view. I normally use either <a href="http://codepen.io/Rafase282/" target="_blank">CodePen </a>for exclusively front end projects, <a href="https://github.com/Rafase282" target="_blank">Github Pages </a>for frontend projects with multiple pages or <a href="http://heroku.com" target="_blank">Heroku </a>for full stack or API projects.</p>
-          <p class="color-Tp-light">Each project will have links to the source code and a live demo along with a screenshot and a brieft description of the project and tools used when you click the image.</p>
         </div>
       </section>
       <section class="container scrollspy" id="portfolio">
