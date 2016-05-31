@@ -410,23 +410,22 @@
           </div>
           <div class="container">
             <div class="row">
-              <form class="col s12" action="https://formspree.io/rafase282@gmail.com" method="POST">
+              <form class="col s12" id="contactForm" action="https://formspree.io/rafase282@gmail.com" method="POST">
                 <div class="row">
                   <div class="input-field col s6"><i class="material-icons prefix color-Tp-light">account_circle</i>
-                    <input class="validate" id="icon_prefix" type="text" name="name" length="28">
-                    <label class="left-align" for="icon_prefix">Full Name</label>
+                    <input class="validate" id="name" type="text" name="name" length="28">
+                    <label class="left-align" for="name">Full Name</label>
                   </div>
                   <div class="input-field col s6"><i class="material-icons prefix color-Tp-light">mail</i>
-                    <input class="validate" id="icon_email" type="email" name="_replyto" length="28">
-                    <label class="left-align" for="icon_email">E-Mail</label>
+                    <input class="validate" id="email" type="email" name="_replyto" length="28">
+                    <label class="left-align" for="email">E-Mail</label>
                   </div>
                 </div>
                 <div class="row">   
                   <div class="input-field col s12"><i class="material-icons prefix color-Tp-light">mode_edit</i>
-                    <textarea class="materialize-textarea" id="textarea1" length="282" name="message" style="height: 21.6px"></textarea>
-                    <label class="left-align" for="textarea1">Message</label>
+                    <textarea class="materialize-textarea" id="message" length="282" name="message" style="height: 21.6px"></textarea>
+                    <label class="left-align" for="message">Message</label>
                     <input type="hidden" name="_next" value="./thanks">
-                    <input type="text" name="_gotcha" style="display:none">
                     <button class="btn waves-effect waves-light color-Bp-light" type="submit" name="action">Send</button>
                   </div>
                 </div>
